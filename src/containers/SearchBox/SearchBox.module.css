@@ -1,0 +1,79 @@
+.SearchBox {
+    padding-top: 400px;
+    line-height: 40px;
+    font-family: Effra-Regular,Arial,Geneva,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: normal;
+    font-size: 16px;
+    color: #91919b;
+
+
+}
+
+.AutocompleteDropdown {
+    width: 60%;
+    border: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    margin-right: 100px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px 5px 24px 24px;
+}
+
+.AutocompleteDropdownContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media (max-width: 500px) {
+    .SearchBox {
+    padding-left: 3px;
+    padding-top: 200px;
+
+    }
+   
+}
+
+input {
+    /* padding-bottom: 20px;
+    padding-top: 20px; */
+    padding-left: 15px;
+    width: 50%;
+    height: 44px;
+    border: 1px solid #dfe1e5; 
+    border-radius: 24px; 
+    display: flex; 
+    box-shadow: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px; 
+    color: #91919b; 
+}
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+  }
+
+
+@media (max-width: 500px) {
+    input {
+        width: 55%;
+        padding-right: 100px;
+    }
+}
+
+    
+.SearchBoxInputGroup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

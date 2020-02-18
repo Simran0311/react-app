@@ -1,0 +1,43 @@
+
+.SideDrawer {
+    font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: calc(100vh - 55px);
+    z-index: 1030;
+    overflow-x: scroll;
+    top: 55px;
+    left: 0px;
+    background: rgb(247, 247, 247);
+    border-right: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding: 20px 50px 50px 20px;
+    transition: all 0.4s ease 0s;
+}
+
+/* @media (max-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
+} */
+
+
+/* @media (min-width: 500px) {
+    .SideDrawer {
+        display: none;
+    }
+} */
+
+.Open {
+    transform: translateX(0);
+}
+
+.Close {
+    transform: translateX(-100%);
+}
+
+/* .Logo {
+    height: 11%;
+    margin-bottom: 32px;
+} */

@@ -1,0 +1,22 @@
+.NavigationSidedraw {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+    height: 100%;
+    
+}
+
+@media (min-width: 500px) {
+    .NavigationSidedraw {
+        display:none;
+    }
+}
+
+/* @media (min-width: 500px) {
+    .NavigationSidedraw {
+        flex-flow: column;
+    }
+} */
